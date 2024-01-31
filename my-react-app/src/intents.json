@@ -1,0 +1,447 @@
+{
+  "intents": [
+    {
+      "tag": "aalap_info",
+      "patterns": [
+        "Tell me about the music club",
+        "What's the aalap  about?",
+        "Do you have an Instagram handle for the aalap?",
+        "aalap",
+        "what music club"
+      ],
+      "responses": [
+        "KMIT's pioneering AALAP Music Club nurtures talent, promotes innovation, and embraces challenges, uniting music enthusiasts to explore, entertain, and connect.Explore   [AALAP - The Music Club of KMIT](https://www.instagram.com/aalapofficial/) on instagram for exciting event updates and more! 🎶."
+      ]
+    },
+    {
+      "tag": "abhinaya_info",
+      "patterns": [
+        "Tell me about the drama club",
+        "What's abhinaya about?",
+        "Do you have an Instagram handle for abhinaya?",
+        "abhinaya",
+        "what drama club"
+      ],
+      "responses": [
+        "ABHINAYA - The Drama Club of KMIT, fostering creativity through theatrical expressions. Stay updated on events and more at [Abhinaya on Instagram](https://www.instagram.com/abhinayathedramaclub//). 🎭"
+      ]
+    },
+    {
+      "tag": "aakarshan_info",
+      "patterns": [
+        "Tell me about the art club",
+        "What's aakarshan about?",
+        "Do you have an Instagram handle for aakarshan?",
+        "aakarshan",
+        "what art club"
+      ],
+      "responses": [
+        "AAKARSHAN - The Art Club of KMIT, unleashing creativity and artistic expression. Follow [Aakarshan on Instagram](hhttps://www.instagram.com/aakarshanofficial/) for updates on art events and projects. 🎨"
+      ]
+    },
+    {
+      "tag": "mudra_info",
+      "patterns": [
+        "Tell me about the dance club",
+        "What's mudra about?",
+        "Do you have an Instagram handle for mudra?",
+        "mudra",
+        "what dance club"
+      ],
+      "responses": [
+        "MUDRA - The Dance Club of KMIT, where rhythm meets expression. Connect with [Mudra on Instagram](https://www.instagram.com/mudraofficial/) for dance event updates and more! 💃🕺"
+      ]
+    },
+    {
+      "tag": "vachan_info",
+      "patterns": [
+        "Tell me about the speaker's club",
+        "What's vachan about?",
+        "Do you have an Instagram handle for vachan?",
+        "vachan",
+        "what speaker's club"
+      ],
+      "responses": [
+        "VACHAN - The Speaker's Club of KMIT, empowering voices and fostering eloquence. Follow [Vachan on Instagram](https://www.instagram.com/vachan.official/) for updates on speaking events and discussions. 🗣️"
+      ]
+    },
+     
+    {
+      "tag": "recurse_info",
+      "patterns": [
+        "Tell me about the coding club",
+        "What's recurse about?",
+        "Do you have an Instagram handle for recurse?",
+        "recurse",
+        "what coding club"
+      ],
+      "responses": [
+        "RECURSE - The Coding Club of KMIT, where innovation meets code. Follow [Recurse on Instagram](https://www.instagram.com/recurse.official/) for coding challenges and tech updates. 💻🚀"
+      ]
+    },
+    
+    {
+      "tag": "kaivalya_info",
+      "patterns": [
+        "Tell me about the yoga club",
+        "What's kaivalya about?",
+        "Do you have an Instagram handle for kaivalya?",
+        "kaivalya",
+        "what yoga club"
+      ],
+      "responses": [
+        "KAIVALYA - The Yoga Club of KMIT, fostering wellness and balance. Follow [Kaivalya on Instagram](https://www.instagram.com/kaivalya_official/) for yoga sessions and well-being tips! 🧘‍♀️🌟"
+      ]
+    },
+    {
+      "tag": "tol_info",
+      "patterns": [
+        "Tell me about the photography club",
+        "What's tol about?",
+        "Do you have an Instagram handle for tol?",
+        "traces of lenses",
+        "what photography club"
+      ],
+      "responses": [
+        "TOL - The Photography Club, capturing moments in frames. Follow [TOL on Instagram](https://www.instagram.com/tracesoflenses/) for visual storytelling and photography updates! 📸🌄"
+      ]
+    },
+    {
+      "tag": "kreeda_info",
+      "patterns": [
+        "Tell me about the sports club",
+        "What's kreeda about?",
+        "Do you have an Instagram handle for kreeda?",
+        "kreeda",
+        "what sports club"
+      ],
+      "responses": [
+        "KREEDA - The Sports Club of KMIT, fostering a spirit of sportsmanship. Follow [Kreeda on Instagram](https://www.instagram.com/kreedaofficial/) for sports events and updates! 🏆🏀"
+      ]
+    },
+    {
+      "tag": "riti_info",
+      "patterns": [
+        "Tell me about the fashion club",
+        "What's riti about?",
+        "Do you have an Instagram handle for riti?",
+        "riti",
+        "what fashion club"
+      ],
+      "responses": [
+        "RITI - The Fashion Club of KMIT, where style meets creativity. Connect with [Riti on Instagram](https://www.instagram.com/riti._.official/) for fashion updates and showcases! 👗👠"
+      ]
+    },
+    {
+      "tag": "curiosity_info",
+      "patterns": [
+        "Tell me about the curiosity club",
+        "What's curiosity about?",
+        "Do you have an Instagram handle for curiosity?",
+        "curiosity",
+        "what curiosity club"
+      ],
+      "responses": [
+        "CURIOSITY - Club of KMIT, fostering a culture of questioning. Explore knowledge with [Curiosity on Instagram](https://www.instagram.com/club_curiosity/). 🧐📚"
+      ]
+    },
+    {
+      "tag": "kmitra_info",
+      "patterns": [
+        "Tell me about the e-magazine",
+        "What's kmitra about?",
+        "Do you have an Instagram handle for kmitra?",
+        "kmitra",
+        "what e-magazine"
+      ],
+      "responses": [
+        "KMITRA - The E-Magazine, showcasing creativity and insights. Stay connected with [KMITRA on Instagram](https://www.instagram.com/kmitraofficial/) for literary updates and more! 📖✨"
+      ]
+    },
+    {
+      "tag": "pr_info",
+      "patterns": [
+        "Tell me about the public relations club",
+        "What's pr about?",
+        "Do you have an Instagram handle for pr?",
+        "pr",
+        "what public relations club"
+      ],
+      "responses": [
+        "PR - The Public Relations Club, bridging connections and communication. Connect with [PR on Instagram](https://www.instagram.com/pr.kmit/) for updates on college events and more! 🤝📢"
+      ]
+    },
+    {
+      "tag": "oc_info",
+      "patterns": [
+        "Tell me about the organizing committee",
+        "What's oc about?",
+        "Do you have an Instagram handle for oc?",
+        "oc",
+        "what organizing committee"
+      ],
+      "responses": [
+        "OC - The Organizing Committee, orchestrating memorable events. Follow [OC on Instagram](https://www.instagram.com/oc.kmit//) for updates on college festivities and gatherings! 🎉📆"
+      ]
+    },
+    
+    
+    {
+      "tag": "nss_info",
+      "patterns": [
+        "Tell me about the non-profit organization",
+        "What's nss about?",
+        "Do you have an Instagram handle for nss?",
+        "nss",
+        "what non-profit organization"
+      ],
+      "responses": [
+        "NSS - Non-Profit Organization at KMIT, serving society selflessly. \"Nonprofit organization not me but you.\" Stay informed with [NSS on Instagram](https://www.instagram.com/nss.kmit/) for community initiatives and social impact! 🤝🌍"
+      ]
+    },
+    {
+      "tag": "rotaract_info",
+      "patterns": [
+        "Tell me about the non-profit organization for greater good",
+        "What's rotaract about?",
+        "Do you have an Instagram handle for rotaract?",
+        "rotaract",
+        "what non-profit organization for greater good"
+      ],
+      "responses": [
+        "ROTARACT - Non-profit organization at KMIT, striving for the greater good. Connect with [Rotaract on Instagram](https://www.instagram.com/rotaract_kmit/) for impactful initiatives and community service! 🌐🤲"
+      ]
+    },
+    {
+      "tag": "street_cause_info",
+      "patterns": [
+        "Tell me about Street Cause",
+        "What's street cause about?",
+        "Do you have an Instagram handle for Street Cause?",
+        "Street Cause",
+        "what Street Cause"
+      ],
+      "responses": [
+        "STREET CAUSE - A division of the largest student-run NGO in Hyderabad. \"A life without a cause is a life without an effect.\" Connect with [Street Cause on Instagram](https://www.instagram.com/streetcause_kmit/) for community service and outreach activities! 🤝🌏"
+      ]
+    },
+    {
+      "tag": "student_committee_info",
+      "patterns": [
+        "Tell me about the student committee",
+        "What's OC and PR?",
+        "Student committee",
+        "OC PR"
+      ],
+      "responses": [
+        "The Student Committee includes OC (Organizing Committee) and PR (Public Relations), playing key roles in organizing events and enhancing college communication."
+      ]
+    },
+    {
+      "tag": "student_body_info",
+      "patterns": [
+        "Tell me about the student body",
+        "What's KMITRA?",
+        "is KMITRA a club",
+        "Student body",
+        "KMITRA"
+      ],
+      "responses": [
+        "KMITRA is the student body at KMIT, responsible for the college's e-magazine and promoting literary and creative works within the student community."
+      ]
+    },
+    {
+      "tag": "external_bodies_info",
+      "patterns": [
+        "Tell me about external bodies",
+        "What's NSS, Rotaract, Street Cause?",
+        "External bodies",
+        
+        "NSS Rotaract Street Cause"
+      ],
+      "responses": [
+        "External bodies of the college include NSS (National Service Scheme), Rotaract, and Street Cause. These organizations focus on community service and social impact beyond the college campus."
+      ]
+    },
+    {
+      "tag": "student_clubs_info",
+      "patterns": [
+        "Tell me about the student clubs",
+        "What's Kaivalya, Aalap, Abhinaya, Aakarshan, Curiosity, Mudra, Recurse, Vachan, Kreeda, Traces of Lenses, Riti?",
+        "Student clubs",
+        "Kaivalya Aalap Abhinaya Aakarshan Curiosity Mudra Recurse Vachan Kreeda Traces of Lenses Riti"
+      ],
+      "responses": [
+        "Student clubs include Kaivalya (Yoga), Aalap (Music), Abhinaya (Drama), Aakarshan (Art), Curiosity, Mudra (Dance), Recurse (Coding), Vachan (Speaker's Club), Kreeda (Sports), Traces of Lenses (Photography), and Riti (Fashion). These clubs provide platforms for diverse interests and talents."
+      ]
+    },
+    {
+      "tag": "tessellator_info",
+      "patterns": [
+        "What is Tessellator?",
+        "Tell me about KMIT's learning management system.",
+        "Tessellator details",
+        "Learning management system at KMIT"
+      ],
+      "responses": [
+        "[Tessellator](http://kmitonline.com/): KMIT's customized Moodle system with code compilation for JAVA, C, and more languages."
+      ]
+    },
+    {
+      "tag": "attendance_tracker",
+      "patterns": [
+        "Access attendance tracker",
+        "How to use Netra for attendance?",
+        "Drona attendance tracker link",
+        "drona"
+      ],
+      "responses": [
+        "For Netra, visit [Netra Attendance Tracker](http://teleuniv.co.in/netra-web/). For Drona, use [Drona Attendance Tracker](Drona_Attendance_Link)."
+      ]
+    },
+    {
+      "tag": "parent_app",
+      "patterns": [
+        "Access parent app",
+        "How to use Sanjaya parent app?",
+        "Sanjaya app link"
+      ],
+      "responses": [
+        "To access the parent app, visit [Sanjaya Parent App](http://teleuniv.co.in/sanjaya-web/)."
+      ]
+    },
+    {
+      "tag": "result_portal",
+      "patterns": [
+        "Access result portal",
+        "How to check results on student.kmit.in?",
+        "Student.kmit.in result link"
+      ],
+      "responses": [
+        "To check results, visit [Student Result Portal](http://portal.teleuniv.in/)."
+      ]
+    },
+    {
+      "tag": "school_related_links",
+      "patterns": [
+        "Provide project school-related links",
+        "project school websites",
+        "School project links",
+        "the project tracker link"
+      ],
+      "responses": [
+        "Click here for the  [Project Tracker Link](http://projectschool.kmitonline.com/)."
+      ]
+    },
+    {
+      "tag": "tesseract_links",
+      "patterns": [
+        "Provide tesseract link",
+        "tessseract website",
+        "tesseract login",
+        "tesseract"
+      ],
+      "responses": [
+        "Click here for the  [Project Tracker Link](https://tesseractonline.com/)."
+      ]
+    },
+    {
+      "tag": "sister_colleges",
+    "patterns": [
+      "List sister colleges of this college",
+      "What are the sister colleges?",
+      "Names of affiliated colleges"
+    ],
+    "responses": [
+      "[NGIT](https://ngit.ac.in/), [KMEC](http://kmec.in/)"
+    ]
+    },
+    {
+      "tag": "founded_years",
+      "patterns": [
+        "What are the founding year of this college ?",
+        "Establishment year of the colleges",
+        "College founding dates",
+        "when was KMIT founded",
+        "when was keshav memorial institue of technology founded"
+      ],
+      "responses": [
+        "KMIT was established in the year 2007"
+      ]
+    },
+    {
+      "tag": "ngit_founded_years",
+      "patterns": [
+        "NGIT",
+        "Establishment year of the ngit",
+        "what NGIT",
+        "what about ngit",
+        "when was NGIT founded",
+        "when was neil gogte institue of technology founded"
+      ],
+      "responses": [
+        "[NGIT](https://ngit.ac.in/) is a sister concern of KMIT started in 2017"
+      ]
+    },
+    {
+      "tag": "kmec_founded_years",
+      "patterns": [
+        "KMEC",
+        "what kmec",
+        "about kmec",
+        "when was KMEC founded",
+        "when was keshav memorial engineering college founded"
+      ],
+      "responses": [
+        "Keshav Memorial Engineering College [KMEC](http://kmec.in/) is the latest engineering institute to be launched by Keshav Memorial Technical Educational Society"
+      ]
+    },
+    {
+      "tag": "founders",
+      "patterns": [
+        "Who are the founders of KMIT?",
+        "Tell me about KMIT founders",
+        "Founding members of Keshav Memorial Institute of Technology"
+      ],
+      "responses": [
+        "The founders of KMIT are Mr. Neil Gogte and Mr. Nitin Sahasrabudhe."
+      ]
+    },
+    {
+      "tag": "neil_gogte",
+      "patterns": [
+        "Tell me about Mr. Neil Gogte",
+        "Who is Mr. Neil Gogte?",
+        "Neil Gogte's background"
+      ],
+      "responses": [
+        "Mr. Neil Gogte is the Founder Director of KMIT. He holds a Masters Degree in Computer Science from IIT - Mumbai and a B.E. degree from Osmania University. With over 25 years of experience in the IT industry, he is a visionary technocrat and entrepreneur."
+      ]
+    },
+    {
+      "tag": "nitin_sahasrabudhe",
+      "patterns": [
+        "Tell me about Mr. Nitin Sahasrabudhe",
+        "Who is Mr. Nitin Sahasrabudhe?",
+        "Nitin Sahasrabudhe's background"
+      ],
+      "responses": [
+        "Mr. Nitin Sahasrabudhe is the Director of Genesis Solutions Pvt. Ltd. He holds a Bachelor's degree in Electronics & Communications Engineering. With over 25 years of experience, he has worked in project and product sales in Healthcare and IT Industries."
+      ]
+    },
+    {
+      "tag": "hod_info",
+      "patterns": [
+        "Who are the HODs at KMIT?",
+        "List of HODs",
+        "cse hod",
+        "csm hod",
+        "it hod",
+        "Check HODs at Keshav Memorial Institute of Technology"
+      ],
+      "responses": [
+        "For information about the HODs at KMIT, visit [HODs at KMIT](https://www.kmit.in/administration/hod.php)."
+      ]
+    }
+  ]
+}
