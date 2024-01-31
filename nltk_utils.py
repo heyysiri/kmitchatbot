@@ -4,7 +4,7 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tag import pos_tag
 from nltk.stem.porter import PorterStemmer
 import numpy as np
-# nltk.download('punkt')
+nltk.download('punkt')
 stemmer = PorterStemmer()
 lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words('english'))
