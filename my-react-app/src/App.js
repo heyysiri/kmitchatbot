@@ -58,7 +58,7 @@ const App = () => {
         {messages.map((message, index) => (
           <li key={index} className={message.sender}>
             {message.text}
-            {message.link ? <a href={message.link}>Click here</a> : null}
+            {message.link ? <a href={message.link} target="_blank" rel="noopener noreferrer">Click here</a>:null}
           </li>
         ))}
         <div ref={messagesEndRef} />
