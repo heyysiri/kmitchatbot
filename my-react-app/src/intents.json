@@ -11,8 +11,6 @@
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
       ]
@@ -640,7 +638,8 @@
         "What are the special initiatives of this college?",
         "What programs does kmit offer?",
         "academic programs",
-        "special academic programs"
+        "special academic programs",
+        "why is kmit a good college"
       ],
       "responses": ["Our college stands out with special initiatives like Project School and Finishing School. Project School aims for well-rounded skills and hands-on experience, while Finishing School offers diverse tracks including coding, aptitude, and soft skills."]
     },
