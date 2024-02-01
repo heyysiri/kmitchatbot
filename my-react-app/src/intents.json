@@ -637,7 +637,10 @@
         "What makes this college unique?",
         "Tell me about the uniqueness of this college.",
         "What sets this college apart?",
-        "What are the special initiatives of this college?"
+        "What are the special initiatives of this college?",
+        "What programs does kmit offer?",
+        "academic programs",
+        "special academic programs"
       ],
       "responses": ["Our college stands out with special initiatives like Project School and Finishing School. Project School aims for well-rounded skills and hands-on experience, while Finishing School offers diverse tracks including coding, aptitude, and soft skills."]
     },
