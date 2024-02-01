@@ -16,7 +16,7 @@ const App = () => {
   
     try {
       // Make a POST request to the Flask server using Axios
-      const response = await axios.post('http://localhost:5000/predict', {
+      const response = await axios.post('https://uniquekmitchatbot8.onrender.com/predict', {
         message: newMessage
       });
       console.log(response.data);
