@@ -6,8 +6,6 @@ import nltk
 from model import NeuralNet  # Import your PyTorch model definition
 from nltk_utils import bag_of_words, tokenize, stem
 
-nltk.download('stopwords')
-
 app = Flask(__name__)
 CORS(app)
 
