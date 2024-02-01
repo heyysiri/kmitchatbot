@@ -68,7 +68,8 @@
         "Do you have an Instagram handle for the aalap?",
         "aalap",
         "What is aalap",
-        "what music club"
+        "what music club",
+        "music club of kmit"
       ],
       "responses": [
         "KMIT's pioneering AALAP Music Club nurtures talent, promotes innovation, and embraces challenges, uniting music enthusiasts to explore, entertain, and connect.Explore AALAP - The Music Club of KMIT on instagram for exciting event updates and more! 🎶."
@@ -116,7 +117,8 @@
         "What's mudra about?",
         "Do you have an Instagram handle for mudra?",
         "mudra",
-        "what dance club"
+        "what dance club",
+        "dance club of kmit"
       ],
       "responses": [
         "MUDRA - The Dance Club of KMIT, where rhythm meets expression. Connect with Mudra on Instagram for dance event updates and more! 💃🕺"
@@ -166,7 +168,8 @@
         "What's kaivalya about?",
         "Do you have an Instagram handle for kaivalya?",
         "kaivalya",
-        "what yoga club"
+        "what yoga club",
+        "yoga club of kmit"
       ],
       "responses": [
         "KAIVALYA - The Yoga Club of KMIT, fostering wellness and balance. Follow Kaivalya on Instagram for yoga sessions and well-being tips! 🧘‍♀️🌟"
@@ -198,7 +201,8 @@
         "What's kreeda about?",
         "Do you have an Instagram handle for kreeda?",
         "kreeda",
-        "what sports club"
+        "what sports club",
+        "sports club of kmit"
       ],
       "responses": [
         "KREEDA - The Sports Club of KMIT, fostering a spirit of sportsmanship. Follow Kreeda on Instagram for sports events and updates! 🏆🏀"
@@ -214,7 +218,8 @@
         "What's riti about?",
         "Do you have an Instagram handle for riti?",
         "riti",
-        "what fashion club"
+        "what fashion club",
+        "fashion club of kmit"
       ],
       "responses": [
         "RITI - The Fashion Club of KMIT, where style meets creativity. Connect with Riti on Instagram for fashion updates and showcases! 👗👠"
@@ -240,7 +245,7 @@
     ]
     },
     {
-      "tag": "kmitra_info",
+      "tag": "k-mitra_info",
       "patterns": [
         "Tell me about the e-magazine",
         "What's k-mitra about?",
