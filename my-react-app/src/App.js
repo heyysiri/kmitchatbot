@@ -19,7 +19,6 @@ const App = () => {
       const response = await axios.post('http://localhost:5000/predict', {
         message: newMessage
       });
-      
       console.log(response.data);
 
       if (!response.status === 200) {
@@ -32,11 +31,12 @@ const App = () => {
       // Find the corresponding response in your JSON file
       const matchingIntent = intents.intents.find(intent => intent.tag === botResponseTag);
       const botResponse = matchingIntent ? matchingIntent.responses[0] : "I'm sorry, I don't understand that.";
+      const botLink = matchingIntent ? matchingIntent.link:null;
       console.log(botResponse)
       setTimeout(() => {
         setMessages((prevMessages) => [
           ...prevMessages,
-          { text: botResponse, sender: 'bot' },
+          { text: botResponse, sender: 'bot', link: botLink},
         ]);
       }, 1000);
     } catch (error) {
@@ -53,11 +53,12 @@ const App = () => {
 
   return (
     <div className="chatroom">
-      <div className="header">Bot</div>
+      <div className="header">Sarathi</div>
       <ul className="messages">
         {messages.map((message, index) => (
           <li key={index} className={message.sender}>
             {message.text}
+            {message.link ? <a href={message.link}>Click here</a> : null}
           </li>
         ))}
         <div ref={messagesEndRef} />

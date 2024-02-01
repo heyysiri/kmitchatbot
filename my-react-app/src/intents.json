@@ -1,17 +1,83 @@
 {
   "intents": [
     {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "about_kmit",
+      "patterns": ["kmit", "tell me about this college", "what is kmit", "tell me about kmit"],
+      "responses": [
+        "KMIT (Keshav Memorial Institute of Technology) is located in Hyderabad, India. KMIT is an engineering college affiliated with Osmania University and offers undergraduate and postgraduate programs in various engineering disciplines."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "project_school_overview",
+      "patterns": [
+        "What is project school?",
+        "What is the objective of Project School?",
+        "Can you explain the ultimate goal of Project School?",
+        "How does Project School enhance students' skills?",
+        "What are the milestones of Project School?",
+        "Explain the eligibility criteria for Project School."
+      ],
+      "responses": ["Project School aims to provide a well-rounded skill set with hands-on project experience. The goal is to integrate multiple technologies and enhance students' technical abilities. Eligibility is open to all students, selected based on a programming languages machine test. Students form teams of 5 members once selected for Project School."]
+    },
+    {
+      "tag": "project_school_selection_process",
+      "patterns": [
+        "How are students selected for Project School?",
+        "Project school selections criteria",
+        "Project school selection",
+        "What is the process for selecting students for Project School?",
+        "Explain the criteria for allotting seats in Project School."
+      ],
+      "responses": "Students are selected based on performance in a machine test on programming languages. Seats are allotted based on test scores and availability."
+    },
+    
+    {
       "tag": "aalap_info",
       "patterns": [
         "Tell me about the music club",
-        "What's the aalap  about?",
+        "What's the aalap about?",
         "Do you have an Instagram handle for the aalap?",
         "aalap",
+        "What is aalap",
         "what music club"
       ],
       "responses": [
-        "KMIT's pioneering AALAP Music Club nurtures talent, promotes innovation, and embraces challenges, uniting music enthusiasts to explore, entertain, and connect.Explore   [AALAP - The Music Club of KMIT](https://www.instagram.com/aalapofficial/) on instagram for exciting event updates and more! 🎶."
-      ]
+        "KMIT's pioneering AALAP Music Club nurtures talent, promotes innovation, and embraces challenges, uniting music enthusiasts to explore, entertain, and connect.Explore AALAP - The Music Club of KMIT on instagram for exciting event updates and more! 🎶."
+      ],
+      "link": [ 
+        "https://www.instagram.com/aalapofficial/"
+    ]
     },
     {
       "tag": "abhinaya_info",
@@ -23,8 +89,11 @@
         "what drama club"
       ],
       "responses": [
-        "ABHINAYA - The Drama Club of KMIT, fostering creativity through theatrical expressions. Stay updated on events and more at [Abhinaya on Instagram](https://www.instagram.com/abhinayathedramaclub//). 🎭"
-      ]
+        "ABHINAYA - The Drama Club of KMIT, fostering creativity through theatrical expressions. Stay updated on events and more at Abhinaya on Instagram. 🎭"
+      ],
+      "link": [ 
+        "https://www.instagram.com/abhinayathedramaclub/"
+    ]
     },
     {
       "tag": "aakarshan_info",
@@ -36,8 +105,11 @@
         "what art club"
       ],
       "responses": [
-        "AAKARSHAN - The Art Club of KMIT, unleashing creativity and artistic expression. Follow [Aakarshan on Instagram](hhttps://www.instagram.com/aakarshanofficial/) for updates on art events and projects. 🎨"
-      ]
+        "AAKARSHAN - The Art Club of KMIT, unleashing creativity and artistic expression. Follow Aakarshan on Instagram for updates on art events and projects. 🎨"
+      ],
+      "link": [ 
+        "https://www.instagram.com/aakarshanofficial/"
+    ]
     },
     {
       "tag": "mudra_info",
@@ -49,8 +121,11 @@
         "what dance club"
       ],
       "responses": [
-        "MUDRA - The Dance Club of KMIT, where rhythm meets expression. Connect with [Mudra on Instagram](https://www.instagram.com/mudraofficial/) for dance event updates and more! 💃🕺"
-      ]
+        "MUDRA - The Dance Club of KMIT, where rhythm meets expression. Connect with Mudra on Instagram for dance event updates and more! 💃🕺"
+      ],
+      "link": [ 
+        "https://www.instagram.com/mudraofficial/"
+    ]
     },
     {
       "tag": "vachan_info",
@@ -62,8 +137,11 @@
         "what speaker's club"
       ],
       "responses": [
-        "VACHAN - The Speaker's Club of KMIT, empowering voices and fostering eloquence. Follow [Vachan on Instagram](https://www.instagram.com/vachan.official/) for updates on speaking events and discussions. 🗣️"
-      ]
+        "VACHAN - The Speaker's Club of KMIT, empowering voices and fostering eloquence. Follow Vachan on Instagram for updates on speaking events and discussions. 🗣️"
+      ],
+      "link": [ 
+        "https://www.instagram.com/vachan.official/"
+    ]
     },
      
     {
@@ -76,8 +154,11 @@
         "what coding club"
       ],
       "responses": [
-        "RECURSE - The Coding Club of KMIT, where innovation meets code. Follow [Recurse on Instagram](https://www.instagram.com/recurse.official/) for coding challenges and tech updates. 💻🚀"
-      ]
+        "RECURSE - The Coding Club of KMIT, where innovation meets code. Follow Recurse on Instagram for coding challenges and tech updates. 💻🚀"
+      ],
+      "link": [ 
+        "https://www.instagram.com/recurse.official/"
+    ]
     },
     
     {
@@ -90,8 +171,11 @@
         "what yoga club"
       ],
       "responses": [
-        "KAIVALYA - The Yoga Club of KMIT, fostering wellness and balance. Follow [Kaivalya on Instagram](https://www.instagram.com/kaivalya_official/) for yoga sessions and well-being tips! 🧘‍♀️🌟"
-      ]
+        "KAIVALYA - The Yoga Club of KMIT, fostering wellness and balance. Follow Kaivalya on Instagram for yoga sessions and well-being tips! 🧘‍♀️🌟"
+      ],
+      "link": [ 
+        "https://www.instagram.com/kaivalya_official/"
+    ]
     },
     {
       "tag": "tol_info",
@@ -103,8 +187,11 @@
         "what photography club"
       ],
       "responses": [
-        "TOL - The Photography Club, capturing moments in frames. Follow [TOL on Instagram](https://www.instagram.com/tracesoflenses/) for visual storytelling and photography updates! 📸🌄"
-      ]
+        "TOL - The Photography Club, capturing moments in frames. Follow [TOL on Instagram] for visual storytelling and photography updates! 📸🌄"
+      ],
+      "link": [ 
+        "https://www.instagram.com/tracesoflenses/"
+    ]
     },
     {
       "tag": "kreeda_info",
@@ -116,8 +203,11 @@
         "what sports club"
       ],
       "responses": [
-        "KREEDA - The Sports Club of KMIT, fostering a spirit of sportsmanship. Follow [Kreeda on Instagram](https://www.instagram.com/kreedaofficial/) for sports events and updates! 🏆🏀"
-      ]
+        "KREEDA - The Sports Club of KMIT, fostering a spirit of sportsmanship. Follow Kreeda on Instagram for sports events and updates! 🏆🏀"
+      ],
+      "link": [ 
+        "https://www.instagram.com/kreedaofficial/"
+    ]
     },
     {
       "tag": "riti_info",
@@ -129,8 +219,11 @@
         "what fashion club"
       ],
       "responses": [
-        "RITI - The Fashion Club of KMIT, where style meets creativity. Connect with [Riti on Instagram](https://www.instagram.com/riti._.official/) for fashion updates and showcases! 👗👠"
-      ]
+        "RITI - The Fashion Club of KMIT, where style meets creativity. Connect with Riti on Instagram for fashion updates and showcases! 👗👠"
+      ],
+      "link": [ 
+        "https://www.instagram.com/riti._.official/"
+    ]
     },
     {
       "tag": "curiosity_info",
@@ -142,21 +235,26 @@
         "what curiosity club"
       ],
       "responses": [
-        "CURIOSITY - Club of KMIT, fostering a culture of questioning. Explore knowledge with [Curiosity on Instagram](https://www.instagram.com/club_curiosity/). 🧐📚"
-      ]
+        "CURIOSITY - Club of KMIT, fostering a culture of questioning. Explore knowledge with [Curiosity on Instagram]. 🧐📚"
+      ],
+      "link": [ 
+        "https://www.instagram.com/club_curiosity/"
+    ]
     },
     {
       "tag": "kmitra_info",
       "patterns": [
         "Tell me about the e-magazine",
-        "What's kmitra about?",
-        "Do you have an Instagram handle for kmitra?",
-        "kmitra",
+        "What's k-mitra about?",
+        "Do you have an Instagram handle for k-mitra?",
         "what e-magazine"
       ],
       "responses": [
-        "KMITRA - The E-Magazine, showcasing creativity and insights. Stay connected with [KMITRA on Instagram](https://www.instagram.com/kmitraofficial/) for literary updates and more! 📖✨"
-      ]
+        "KMITRA - The E-Magazine, showcasing creativity and insights. Stay connected with KMITRA on Instagram for literary updates and more! 📖✨"
+      ],
+      "link": [ 
+        "https://www.instagram.com/kmitraofficial/"
+    ]
     },
     {
       "tag": "pr_info",
@@ -169,7 +267,10 @@
       ],
       "responses": [
         "PR - The Public Relations Club, bridging connections and communication. Connect with [PR on Instagram](https://www.instagram.com/pr.kmit/) for updates on college events and more! 🤝📢"
-      ]
+      ],
+      "link": [ 
+        "https://www.instagram.com/aalapofficial/"
+    ]
     },
     {
       "tag": "oc_info",
@@ -181,36 +282,43 @@
         "what organizing committee"
       ],
       "responses": [
-        "OC - The Organizing Committee, orchestrating memorable events. Follow [OC on Instagram](https://www.instagram.com/oc.kmit//) for updates on college festivities and gatherings! 🎉📆"
-      ]
+        "OC - The Organizing Committee, orchestrating memorable events. Follow OC on Instagram for updates on college festivities and gatherings! 🎉📆"
+      ],
+      "link": [ 
+        "https://www.instagram.com/oc.kmit/"
+    ]
     },
     
     
     {
       "tag": "nss_info",
       "patterns": [
-        "Tell me about the non-profit organization",
         "What's nss about?",
         "Do you have an Instagram handle for nss?",
         "nss",
         "what non-profit organization"
       ],
       "responses": [
-        "NSS - Non-Profit Organization at KMIT, serving society selflessly. \"Nonprofit organization not me but you.\" Stay informed with [NSS on Instagram](https://www.instagram.com/nss.kmit/) for community initiatives and social impact! 🤝🌍"
-      ]
+        "NSS - Non-Profit Organization at KMIT, serving society selflessly. \"Nonprofit organization not me but you.\" Stay informed with NSS on Instagram for community initiatives and social impact! 🤝🌍"
+      ],
+      "link": [ 
+        "https://www.instagram.com/nss.kmit/"
+    ]
     },
     {
       "tag": "rotaract_info",
       "patterns": [
-        "Tell me about the non-profit organization for greater good",
         "What's rotaract about?",
         "Do you have an Instagram handle for rotaract?",
         "rotaract",
         "what non-profit organization for greater good"
       ],
       "responses": [
-        "ROTARACT - Non-profit organization at KMIT, striving for the greater good. Connect with [Rotaract on Instagram](https://www.instagram.com/rotaract_kmit/) for impactful initiatives and community service! 🌐🤲"
-      ]
+        "ROTARACT - Non-profit organization at KMIT, striving for the greater good. Connect with [Rotaract on Instagram] for impactful initiatives and community service! 🌐🤲"
+      ],
+      "link": [ 
+        "https://www.instagram.com/rotaract_kmit/"
+    ]
     },
     {
       "tag": "street_cause_info",
@@ -222,8 +330,11 @@
         "what Street Cause"
       ],
       "responses": [
-        "STREET CAUSE - A division of the largest student-run NGO in Hyderabad. \"A life without a cause is a life without an effect.\" Connect with [Street Cause on Instagram](https://www.instagram.com/streetcause_kmit/) for community service and outreach activities! 🤝🌏"
-      ]
+        "STREET CAUSE - A division of the largest student-run NGO in Hyderabad. \"A life without a cause is a life without an effect.\" Connect with Street Cause on Instagram for community service and outreach activities! 🤝🌏"
+      ],
+      "link": [ 
+        "https://www.instagram.com/streetcause_kmit/"
+    ]
     },
     {
       "tag": "student_committee_info",
@@ -247,8 +358,11 @@
         "KMITRA"
       ],
       "responses": [
-        "KMITRA is the student body at KMIT, responsible for the college's e-magazine and promoting literary and creative works within the student community."
-      ]
+        "KMITRA is the student body at KMIT, responsible for the college's e-magazine and promoting literary and creative works within the student community.Visit the instagram account for more updates of it's activities"
+      ],
+      "link": [ 
+        "https://www.instagram.com/kmitraofficial/"
+    ]
     },
     {
       "tag": "external_bodies_info",
@@ -269,7 +383,9 @@
         "Tell me about the student clubs",
         "What's Kaivalya, Aalap, Abhinaya, Aakarshan, Curiosity, Mudra, Recurse, Vachan, Kreeda, Traces of Lenses, Riti?",
         "Student clubs",
-        "Kaivalya Aalap Abhinaya Aakarshan Curiosity Mudra Recurse Vachan Kreeda Traces of Lenses Riti"
+        "tell me about clubs",
+        "clubs in kmit"
+        
       ],
       "responses": [
         "Student clubs include Kaivalya (Yoga), Aalap (Music), Abhinaya (Drama), Aakarshan (Art), Curiosity, Mudra (Dance), Recurse (Coding), Vachan (Speaker's Club), Kreeda (Sports), Traces of Lenses (Photography), and Riti (Fashion). These clubs provide platforms for diverse interests and talents."
@@ -284,8 +400,11 @@
         "Learning management system at KMIT"
       ],
       "responses": [
-        "[Tessellator](http://kmitonline.com/): KMIT's customized Moodle system with code compilation for JAVA, C, and more languages."
-      ]
+        "Tessellator: KMIT's customized Moodle system with code compilation for JAVA, C, and more languages."
+      ],
+      "link": [ 
+        "http://kmitonline.com/"
+    ]
     },
     {
       "tag": "attendance_tracker",
@@ -296,8 +415,11 @@
         "drona"
       ],
       "responses": [
-        "For Netra, visit [Netra Attendance Tracker](http://teleuniv.co.in/netra-web/). For Drona, use [Drona Attendance Tracker](Drona_Attendance_Link)."
-      ]
+        "For attendance tracker."
+      ],
+      "link": [ 
+        "http://teleuniv.co.in/netra-web//"
+    ]
     },
     {
       "tag": "parent_app",
@@ -307,19 +429,26 @@
         "Sanjaya app link"
       ],
       "responses": [
-        "To access the parent app, visit [Sanjaya Parent App](http://teleuniv.co.in/sanjaya-web/)."
-      ]
+        "To access the parent app, visit Sanjaya Parent App."
+      ],
+      "link": [ 
+        "http://teleuniv.co.in/sanjaya-web/"
+    ]
     },
     {
       "tag": "result_portal",
       "patterns": [
         "Access result portal",
-        "How to check results on student.kmit.in?",
-        "Student.kmit.in result link"
+        "where to check results",
+        "provide result website link",
+        "Show the result's link"
       ],
       "responses": [
-        "To check results, visit [Student Result Portal](http://portal.teleuniv.in/)."
-      ]
+        "To check results, visit Student Result Portal."
+      ],
+      "link": [ 
+        "hhttp://portal.teleuniv.in/"
+    ]
     },
     {
       "tag": "school_related_links",
@@ -330,8 +459,11 @@
         "the project tracker link"
       ],
       "responses": [
-        "Click here for the  [Project Tracker Link](http://projectschool.kmitonline.com/)."
-      ]
+        "For the project tracker"
+      ],
+      "link": [ 
+        "http://projectschool.kmitonline.com/"
+    ]
     },
     {
       "tag": "tesseract_links",
@@ -339,22 +471,33 @@
         "Provide tesseract link",
         "tessseract website",
         "tesseract login",
-        "tesseract"
+        "Provide Tesseract web access",
+        "How to access Tesseract online?"
       ],
       "responses": [
-        "Click here for the  [Project Tracker Link](https://tesseractonline.com/)."
-      ]
+        "For the tesseract."
+      ],
+      "link": [ 
+        "https://tesseractonline.com/"
+    ]
     },
     {
       "tag": "sister_colleges",
     "patterns": [
       "List sister colleges of this college",
       "What are the sister colleges?",
-      "Names of affiliated colleges"
+      "Names of affiliated colleges",
+      "Colleges affiliated with this",
+      "where are the sister college located",
+      "where is ngit",
+      "where is kmec"
     ],
     "responses": [
-      "[NGIT](https://ngit.ac.in/), [KMEC](http://kmec.in/)"
-    ]
+      "NGIT, KMEC are the sister colleges of KMIT located in Uppal, Peerzadiguda respectively"
+    ],
+    "link": [ 
+      "https://ngit.ac.in/", "http://kmec.in/"
+  ]
     },
     {
       "tag": "founded_years",
@@ -368,6 +511,8 @@
       "responses": [
         "KMIT was established in the year 2007"
       ]
+     
+    
     },
     {
       "tag": "ngit_founded_years",
@@ -380,8 +525,11 @@
         "when was neil gogte institue of technology founded"
       ],
       "responses": [
-        "[NGIT](https://ngit.ac.in/) is a sister concern of KMIT started in 2017"
-      ]
+        "NGIT is a sister concern of KMIT started in 2017"
+      ],
+      "link": [ 
+        "https://ngit.ac.in/"
+    ]
     },
     {
       "tag": "kmec_founded_years",
@@ -393,8 +541,11 @@
         "when was keshav memorial engineering college founded"
       ],
       "responses": [
-        "Keshav Memorial Engineering College [KMEC](http://kmec.in/) is the latest engineering institute to be launched by Keshav Memorial Technical Educational Society"
-      ]
+        "Keshav Memorial Engineering College KMEC is the latest engineering institute to be launched by Keshav Memorial Technical Educational Society"
+      ],
+      "link": [ 
+        "http://kmec.in/"
+    ]
     },
     {
       "tag": "founders",
@@ -442,6 +593,256 @@
       "responses": [
         "For information about the HODs at KMIT, visit [HODs at KMIT](https://www.kmit.in/administration/hod.php)."
       ]
+    },
+    {
+      "tag": "college_advantages",
+      "patterns": [
+        "What advantages does this college offer?",
+        "How is this college beneficial for students?",
+        "Tell me about the advantages of joining this college.",
+        "Why is this college a good choice?",
+        "What are the strengths of this college?"
+      ],
+      "responses": ["This college provides unique advantages through special programs like Project School and Finishing School. Students gain practical skills, competitive edge, and industry preparation, making it an ideal choice for holistic development."]
+    },
+    {
+      "tag": "college_location",
+      "patterns": [
+        "location",
+        "where is the college located",
+        "college location",
+        "Where is the college situated",
+        "where KMIT"
+        
+      ],
+      "responses": ["KMIT campus is located in Narayanaguda, a central locality in the city of Hyderabad."]
+    },
+    {
+      "tag": "college_selling_points",
+      "patterns": [
+        "What are the selling points of this college?",
+        "Tell me about the highlights of this college.",
+        "What are the key selling features of this college?",
+        "Why is this college special?",
+        "Can you list the strengths of this college?",
+        "why kmit",
+        "why should i join this clg",
+        "why should i join this college",
+        "what is special about kmit",
+        "what is different about kmit",
+        "what is different about this college",
+        "what is different about this clg",
+        "how is kmit different",
+        "Why should I join this college?",
+        "What makes this college unique?",
+        "Tell me about the uniqueness of this college.",
+        "What sets this college apart?",
+        "What are the special initiatives of this college?"
+      ],
+      "responses": ["Our college stands out with special initiatives like Project School and Finishing School. Project School aims for well-rounded skills and hands-on experience, while Finishing School offers diverse tracks including coding, aptitude, and soft skills."]
+    },
+    {
+      "tag": "college_hostel",
+      "patterns": [
+        "Does the campus have a hostel?",
+        "Where can I stay if I join this college?",
+        "Are there any residential facilities on campus?",
+        "Can I get a room in the hostel?",
+        "Is there a hostel on campus?",
+        "Is there a dormitory in the college?",
+        "Are there any PGs or hostels near the college?"
+      ],
+      "responses": [
+        "Our college does not have any residential facilities or hostels. However, there are many private hostels and PG accommodations available near the college premises."
+      ]
+    },
+    
+    {
+      "tag": "transportation_options",
+      "patterns": [
+        "How can I travel to the college?",
+        "Is there a college bus?",
+        "Does the college provide transport?",
+        "What are the transportation options for the college?",
+        "Does the college have a shuttle service?",
+        "Can I take a bus to the college?",
+        "Do I need to arrange my own transport to the college?"
+      ],
+      "responses": [
+        "Our college does not provide any buses or transportation. However, you can reach the college via Narayanaguda metro station or Narayanaguda bus stop."
+        
+      ]
+    }, 
+    {
+      "tag": "college_placements",
+      "patterns": [
+        "How are the placements in the college?",
+        "What companies come for placements?",
+        "What is the highest package offered?",
+        "What percentage of students get placed every year?",
+        "Tell me about the college placements.",
+        "What is the average salary package ?",
+        "Are there any internships offered during placements?"
+      ],
+      "responses": [
+        "Our college has a dedicated placement cell-Bhavishya Dwar that invites various reputed companies for campus placements. For specific details about the companies, packages, and percentage of students placed, please follow the [link] (https://kmit.in/placements/placement.php)"
+      ]
+    },
+    
+    
+    
+      
+    {
+      "tag": "parking_location",
+      "patterns": [
+              "Where can I find parking?",
+              "Where is the nearest parking lot?",
+              "Can you guide me to the parking area?",
+              "Where can I park my vehicle?",
+              "Is there a designated parking area?",
+              "Where is the parking zone?",
+              "Can you help me find a place to park?",
+              "Where is the car park located?",
+              "Where should I park my bike?",
+              "Where is the parking spot?"
+      ],
+      "responses": [
+        "The parking is located near the main entrance. It has spots for both cars and bikes."
+      ]
     }
+    ,
+      {
+          "tag": "parking_availability",
+          "patterns": [
+              "Is parking available on campus?",
+              "Can I park my vehicle on campus?",
+              "Is there a parking lot in the college?",
+              "Can I park my bike on campus?",
+              "Is there parking for scooters?",
+              "Can I park my car in the college parking lot?",
+              "Is there parking for motorcycles?",
+              "Is there parking for bikes?",
+              "Bike parking",
+              "Car parking"
+          ],
+          "responses": [
+              "Yes, parking is available on campus. We have provisions for both 2 wheeler and 3 wheeler parking."
+          ]
+      },
+      {
+        "tag": "eamcet_cutoff",
+        "patterns": [
+          "What was the EAMCET cutoff?",
+          "Can you tell me the EAMCET cutoff?",
+          "I need to know the EAMCET cutoff.",
+          "What is the cutoff for EAMCET?",
+          "Could you inform me about the EAMCET cutoff?"
+        ],
+        "responses": [
+          "Our college is one of the top 10 institutions in the state. The EAMCET cutoff varies each year. For detailed information, please visit our official website. Official Website"
+        ]
+      },
+      {
+        "tag": "college_courses",
+        "patterns": [
+          "What courses does the college offer?",
+          "Can you tell me the courses offered by the college?",
+          "I need to know the courses offered in the college.",
+          "What are the courses offered in the college?",
+          "What are the major courses in the college?",
+          "I want to know about the college courses.",
+          "Tell me about the courses in the college.",
+          "What kind of courses are offered in the college?"
+        ],
+        "responses": [
+          "Our college offers a variety of courses. They include Computer Science Engineering (CSE), Computer Science and Engineering with specialization in AI and ML (CSM), Computer Science and Engineering with specialization in Data Science (CSD), and Information Technology (IT). For detailed information about these courses, please visit our official website."]
+      },
+      {
+        "tag": "college_accreditations",
+        "patterns": [
+          "What accreditations does the college have?",
+          "Can you tell me the accreditations of the college?",
+          "I need to know the college's accreditations.",
+          "What are the college's accreditations?",
+          "What are the major accreditations of the college?",
+          "Can you list the college's accreditations?",
+          "I want to know about the college's accreditations.",
+          "Tell me about the accreditations of the college."
+        ],
+        "responses": [
+          "Our college is autonomous and is accredited by several prestigious organizations. These include the National Board of Accreditation (NBA), the National Assessment and Accreditation Council (NAAC), the National Institutional Ranking Framework (NIRF), the Atal Ranking of Institutions on Innovation Achievements (ARIIA), and the National Innovation Council (NIC). For detailed information about these accreditations, please visit our official website."]
+      },
+      {
+        "tag": "finishing_school_duration",
+        "patterns": [
+          "When does the Finishing School start?",
+          "Can you tell me when the Finishing School starts and its duration?",
+          "What is the duration of the Finishing School?",
+          "When does the Finishing School program begin and end?",
+          "Can you list the start and end dates of the Finishing School?",
+          "I want to know about the Finishing School's schedule.",
+          "Tell me about the Finishing School's duration.",
+          "What is the schedule for the Finishing School?"
+        ],
+        "responses": [
+          "The Finishing School program consists of two semesters. The first semester of the Finishing School runs concurrently with the third year second semester of B.Tech while the second semester runs concurrently with the fourth year, first semester. A student has the choice to opt for various tracks offered."]
+      },
+      {
+        "tag": "finishing_school_tracks",
+        "patterns": [
+          "what is finishing school",
+          "What tracks are offered in the Finishing School?",
+          "Can you tell me the tracks offered in the Finishing School?",
+          "What are the tracks in the Finishing School?",
+          "Can you list the tracks in the Finishing School?",
+          "I want to know about the tracks in the Finishing School.",
+          "Tell me about the tracks in the Finishing School.",
+          "What kind of tracks are offered in the Finishing School?"
+        ],
+        "responses": [
+          "The Finishing School offers a variety of tracks. These include: Foundation Track: C, C++, Core and Advanced Java, RDBMS, OS fundamentals.Aptitude Skills: Quantitative Techniques, Verbal Ability, Reasoning, Puzzles, General Knowledge, Group Discussion: General Interest, Creative topics, Education, Social Topics etc., ELearning: Video Sessions are available online, enabling concept revision. Soft Skills: Resume Writing, Interview Preparation, Business"]
+      },
+      {
+        "tag": "foundation_school_overview",
+        "patterns": [
+          "What is the Foundation School?",
+          "Can you tell me about the FDS?",
+          "I need to know about the Foundation School.",
+          "Could you provide some information about the Foundation School?",
+          "What's the purpose of the Foundation School?",
+          "What does the FDS do?",
+          "Tell me something about the Foundation School."
+        ],
+        "responses": [
+          "Foundation School (FDS) is a program that focuses on improving and enhancing the coding skills of students of the first and second years. These sessions are apart from the regular University classes."]
+      },
+      {
+        "tag": "foundation_school_schedule",
+        "patterns": [
+          "When are the Foundation School sessions?",
+          "How often are the Foundation School sessions?",
+          "What is the schedule for the Foundation School sessions?",
+          "What's the timing of the Foundation School sessions?",
+          "When do the Foundation School sessions take place?",
+          "Can you tell me the timing of the Foundation School sessions?",
+          "What's the frequency of the Foundation School sessions?"
+        ],
+        "responses": [
+          "Students will have FDS coding sessions 2 hours per day, thrice a week for the complete semester."]
+      },
+      {
+        "tag": "foundation_school_curriculum",
+        "patterns": [
+          "What do students do in the Foundation School sessions?",
+          "What kind of problems are given in the Foundation School sessions?",
+          "What is the curriculum of the Foundation School?",
+          "What do the Foundation School sessions involve?",
+          "What activities are conducted in the Foundation School sessions?",
+          "What kind of tasks are assigned in the Foundation School sessions?",
+          "What's the learning process in the Foundation School sessions?"
+        ],
+        "responses": [
+          "During these sessions, students are given challenging coding problems and are encouraged to solve them. Faculty mentors too are available in the class for those students who need help."]
+      }
   ]
 }
