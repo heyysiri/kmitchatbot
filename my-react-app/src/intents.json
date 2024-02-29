@@ -26,7 +26,7 @@
     },
     {
       "tag": "about_kmit",
-      "patterns": ["kmit", "tell me about this college", "what is kmit", "tell me about kmit"],
+      "patterns": ["kmit", "what is kmit", "tell me about kmit"],
       "responses": [
         "KMIT (Keshav Memorial Institute of Technology) is located in Hyderabad, India. KMIT is an engineering college affiliated with Osmania University and offers undergraduate and postgraduate programs in various engineering disciplines."
       ]
@@ -692,8 +692,11 @@
         "Are there any internships offered during placements?"
       ],
       "responses": [
-        "Our college has a dedicated placement cell-Bhavishya Dwar that invites various reputed companies for campus placements. For specific details about the companies, packages, and percentage of students placed, please follow the [link] (https://kmit.in/placements/placement.php)"
-      ]
+        "Our college has a dedicated placement cell-Bhavishya Dwar that invites various reputed companies for campus placements. For specific details about the companies, packages, and percentage of students placed, please follow the link: "
+      ],
+      "link": [ 
+        "https://kmit.in/placements/placement.php"
+    ]
     },
     
     
@@ -746,8 +749,10 @@
           "Could you inform me about the EAMCET cutoff?"
         ],
         "responses": [
-          "Our college is one of the top 10 institutions in the state. The EAMCET cutoff varies each year. For detailed information, please visit our official website. Official Website"
-        ]
+          "Our college is one of the top 10 institutions in the state. The EAMCET cutoff varies each year. For detailed information, please visit our official website: "
+        ],
+        "link": [ 
+          "https://kmit.in/admissions/eamcet-lastrank.php"]
       },
       {
         "tag": "college_courses",

@@ -5,6 +5,12 @@ hay.py
 kmit.py
 prev.py
 kmit-env
+testtrain.py
+testingnltk.py
+chat.py
+model.py
+nltk_utils.py
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
