@@ -10,7 +10,7 @@ testingnltk.py
 chat.py
 model.py
 nltk_utils.py
-
+distilbert_intent_classifier.pth
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
