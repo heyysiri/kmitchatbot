@@ -39,6 +39,7 @@
     {
       "tag": "project_school_overview",
       "patterns": [
+        "Project school",
         "What is project school?",
         "What is the objective of Project School?",
         "Can you explain the ultimate goal of Project School?",
@@ -69,7 +70,8 @@
         "aalap",
         "What is aalap",
         "what music club",
-        "music club of kmit"
+        "music club of kmit",
+        "music club"
       ],
       "responses": [
         "KMIT's pioneering AALAP Music Club nurtures talent, promotes innovation, and embraces challenges, uniting music enthusiasts to explore, entertain, and connect.Explore AALAP - The Music Club of KMIT on instagram for exciting event updates and more! 🎶."
@@ -85,7 +87,8 @@
         "What's abhinaya about?",
         "Do you have an Instagram handle for abhinaya?",
         "abhinaya",
-        "what drama club"
+        "what drama club",
+        "drama club"
       ],
       "responses": [
         "ABHINAYA - The Drama Club of KMIT, fostering creativity through theatrical expressions. Stay updated on events and more at Abhinaya on Instagram. 🎭"
@@ -101,7 +104,8 @@
         "What's aakarshan about?",
         "Do you have an Instagram handle for aakarshan?",
         "aakarshan",
-        "what art club"
+        "what art club",
+        "art club"
       ],
       "responses": [
         "AAKARSHAN - The Art Club of KMIT, unleashing creativity and artistic expression. Follow Aakarshan on Instagram for updates on art events and projects. 🎨"
@@ -118,7 +122,8 @@
         "Do you have an Instagram handle for mudra?",
         "mudra",
         "what dance club",
-        "dance club of kmit"
+        "dance club of kmit",
+        "dance club"
       ],
       "responses": [
         "MUDRA - The Dance Club of KMIT, where rhythm meets expression. Connect with Mudra on Instagram for dance event updates and more! 💃🕺"
@@ -134,7 +139,8 @@
         "What's vachan about?",
         "Do you have an Instagram handle for vachan?",
         "vachan",
-        "what speaker's club"
+        "what speaker's club",
+        "public speaking club"
       ],
       "responses": [
         "VACHAN - The Speaker's Club of KMIT, empowering voices and fostering eloquence. Follow Vachan on Instagram for updates on speaking events and discussions. 🗣️"
@@ -151,7 +157,8 @@
         "What's recurse about?",
         "Do you have an Instagram handle for recurse?",
         "recurse",
-        "what coding club"
+        "what coding club",
+        "coding club"
       ],
       "responses": [
         "RECURSE - The Coding Club of KMIT, where innovation meets code. Follow Recurse on Instagram for coding challenges and tech updates. 💻🚀"
@@ -250,7 +257,9 @@
         "Tell me about the e-magazine",
         "What's k-mitra about?",
         "Do you have an Instagram handle for k-mitra?",
-        "what e-magazine"
+        "what e-magazine",
+        "writing club",
+        "e-magazine club"
       ],
       "responses": [
         "KMITRA - The E-Magazine, showcasing creativity and insights. Stay connected with KMITRA on Instagram for literary updates and more! 📖✨"
@@ -299,7 +308,9 @@
         "What's nss about?",
         "Do you have an Instagram handle for nss?",
         "nss",
-        "what non-profit organization"
+        "what non-profit organization",
+        "is nss a non-profit organization",
+        "what is nss"
       ],
       "responses": [
         "NSS - Non-Profit Organization at KMIT, serving society selflessly. \"Nonprofit organization not me but you.\" Stay informed with NSS on Instagram for community initiatives and social impact! 🤝🌍"
@@ -314,7 +325,8 @@
         "What's rotaract about?",
         "Do you have an Instagram handle for rotaract?",
         "rotaract",
-        "what non-profit organization for greater good"
+        "what non-profit organization for greater good",
+        "what is rotaract"
       ],
       "responses": [
         "ROTARACT - Non-profit organization at KMIT, striving for the greater good. Connect with [Rotaract on Instagram] for impactful initiatives and community service! 🌐🤲"

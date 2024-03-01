@@ -4,6 +4,7 @@ import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 from transformers import DistilBertTokenizer, DistilBertModel
 
+
 # Load intents from the JSON file
 with open('my-react-app/src/intents.json', 'r', encoding='utf-8') as f:
     intents = json.load(f)
@@ -68,10 +69,10 @@ classifier = IntentClassifier(input_size, output_size)
 
 # Loss and optimizer
 criterion = nn.CrossEntropyLoss()
-optimizer = torch.optim.Adam(classifier.parameters(), lr=0.0001)
+optimizer = torch.optim.Adam(classifier.parameters(), lr=0.0003)
 
 # Train the model (customize this part based on your specific requirements)
-num_epochs = 5
+num_epochs = 6
 for epoch in range(num_epochs):
     for batch in train_loader:
         input_ids = batch['input_ids']
