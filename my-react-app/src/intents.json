@@ -65,22 +65,13 @@
       "patterns": [
         "Tell me about the music club",
         "What's the aalap about?",
-        "What's the aalap about?",
         "Do you have an Instagram handle for the aalap?",
         "aalap",
         "What is aalap",
         "what music club",
         "music club of kmit"
-        "What is aalap",
-        "what music club",
-        "music club of kmit"
       ],
       "responses": [
-        "KMIT's pioneering AALAP Music Club nurtures talent, promotes innovation, and embraces challenges, uniting music enthusiasts to explore, entertain, and connect.Explore AALAP - The Music Club of KMIT on instagram for exciting event updates and more! 🎶."
-      ],
-      "link": [ 
-        "https://www.instagram.com/aalapofficial/"
-    ]
         "KMIT's pioneering AALAP Music Club nurtures talent, promotes innovation, and embraces challenges, uniting music enthusiasts to explore, entertain, and connect.Explore AALAP - The Music Club of KMIT on instagram for exciting event updates and more! 🎶."
       ],
       "link": [ 
@@ -102,11 +93,6 @@
       "link": [ 
         "https://www.instagram.com/abhinayathedramaclub/"
     ]
-        "ABHINAYA - The Drama Club of KMIT, fostering creativity through theatrical expressions. Stay updated on events and more at Abhinaya on Instagram. 🎭"
-      ],
-      "link": [ 
-        "https://www.instagram.com/abhinayathedramaclub/"
-    ]
     },
     {
       "tag": "aakarshan_info",
@@ -123,11 +109,6 @@
       "link": [ 
         "https://www.instagram.com/aakarshanofficial/"
     ]
-        "AAKARSHAN - The Art Club of KMIT, unleashing creativity and artistic expression. Follow Aakarshan on Instagram for updates on art events and projects. 🎨"
-      ],
-      "link": [ 
-        "https://www.instagram.com/aakarshanofficial/"
-    ]
     },
     {
       "tag": "mudra_info",
@@ -138,15 +119,8 @@
         "mudra",
         "what dance club",
         "dance club of kmit"
-        "what dance club",
-        "dance club of kmit"
       ],
       "responses": [
-        "MUDRA - The Dance Club of KMIT, where rhythm meets expression. Connect with Mudra on Instagram for dance event updates and more! 💃🕺"
-      ],
-      "link": [ 
-        "https://www.instagram.com/mudraofficial/"
-    ]
         "MUDRA - The Dance Club of KMIT, where rhythm meets expression. Connect with Mudra on Instagram for dance event updates and more! 💃🕺"
       ],
       "link": [ 
@@ -163,11 +137,6 @@
         "what speaker's club"
       ],
       "responses": [
-        "VACHAN - The Speaker's Club of KMIT, empowering voices and fostering eloquence. Follow Vachan on Instagram for updates on speaking events and discussions. 🗣️"
-      ],
-      "link": [ 
-        "https://www.instagram.com/vachan.official/"
-    ]
         "VACHAN - The Speaker's Club of KMIT, empowering voices and fostering eloquence. Follow Vachan on Instagram for updates on speaking events and discussions. 🗣️"
       ],
       "link": [ 
@@ -190,11 +159,6 @@
       "link": [ 
         "https://www.instagram.com/recurse.official/"
     ]
-        "RECURSE - The Coding Club of KMIT, where innovation meets code. Follow Recurse on Instagram for coding challenges and tech updates. 💻🚀"
-      ],
-      "link": [ 
-        "https://www.instagram.com/recurse.official/"
-    ]
     },
     
     {
@@ -206,15 +170,8 @@
         "kaivalya",
         "what yoga club",
         "yoga club of kmit"
-        "what yoga club",
-        "yoga club of kmit"
       ],
       "responses": [
-        "KAIVALYA - The Yoga Club of KMIT, fostering wellness and balance. Follow Kaivalya on Instagram for yoga sessions and well-being tips! 🧘‍♀️🌟"
-      ],
-      "link": [ 
-        "https://www.instagram.com/kaivalya_official/"
-    ]
         "KAIVALYA - The Yoga Club of KMIT, fostering wellness and balance. Follow Kaivalya on Instagram for yoga sessions and well-being tips! 🧘‍♀️🌟"
       ],
       "link": [ 
@@ -236,11 +193,6 @@
       "link": [ 
         "https://www.instagram.com/tracesoflenses/"
     ]
-        "TOL - The Photography Club, capturing moments in frames. Follow [TOL on Instagram] for visual storytelling and photography updates! 📸🌄"
-      ],
-      "link": [ 
-        "https://www.instagram.com/tracesoflenses/"
-    ]
     },
     {
       "tag": "kreeda_info",
@@ -251,15 +203,8 @@
         "kreeda",
         "what sports club",
         "sports club of kmit"
-        "what sports club",
-        "sports club of kmit"
       ],
       "responses": [
-        "KREEDA - The Sports Club of KMIT, fostering a spirit of sportsmanship. Follow Kreeda on Instagram for sports events and updates! 🏆🏀"
-      ],
-      "link": [ 
-        "https://www.instagram.com/kreedaofficial/"
-    ]
         "KREEDA - The Sports Club of KMIT, fostering a spirit of sportsmanship. Follow Kreeda on Instagram for sports events and updates! 🏆🏀"
       ],
       "link": [ 
@@ -275,15 +220,8 @@
         "riti",
         "what fashion club",
         "fashion club of kmit"
-        "what fashion club",
-        "fashion club of kmit"
       ],
       "responses": [
-        "RITI - The Fashion Club of KMIT, where style meets creativity. Connect with Riti on Instagram for fashion updates and showcases! 👗👠"
-      ],
-      "link": [ 
-        "https://www.instagram.com/riti._.official/"
-    ]
         "RITI - The Fashion Club of KMIT, where style meets creativity. Connect with Riti on Instagram for fashion updates and showcases! 👗👠"
       ],
       "link": [ 
@@ -305,29 +243,16 @@
       "link": [ 
         "https://www.instagram.com/club_curiosity/"
     ]
-        "CURIOSITY - Club of KMIT, fostering a culture of questioning. Explore knowledge with [Curiosity on Instagram]. 🧐📚"
-      ],
-      "link": [ 
-        "https://www.instagram.com/club_curiosity/"
-    ]
     },
     {
-      "tag": "k-mitra_info",
       "tag": "k-mitra_info",
       "patterns": [
         "Tell me about the e-magazine",
         "What's k-mitra about?",
         "Do you have an Instagram handle for k-mitra?",
-        "What's k-mitra about?",
-        "Do you have an Instagram handle for k-mitra?",
         "what e-magazine"
       ],
       "responses": [
-        "KMITRA - The E-Magazine, showcasing creativity and insights. Stay connected with KMITRA on Instagram for literary updates and more! 📖✨"
-      ],
-      "link": [ 
-        "https://www.instagram.com/kmitraofficial/"
-    ]
         "KMITRA - The E-Magazine, showcasing creativity and insights. Stay connected with KMITRA on Instagram for literary updates and more! 📖✨"
       ],
       "link": [ 
@@ -349,10 +274,6 @@
       "link": [ 
         "https://www.instagram.com/aalapofficial/"
     ]
-      ],
-      "link": [ 
-        "https://www.instagram.com/aalapofficial/"
-    ]
     },
     {
       "tag": "oc_info",
@@ -364,11 +285,6 @@
         "what organizing committee"
       ],
       "responses": [
-        "OC - The Organizing Committee, orchestrating memorable events. Follow OC on Instagram for updates on college festivities and gatherings! 🎉📆"
-      ],
-      "link": [ 
-        "https://www.instagram.com/oc.kmit/"
-    ]
         "OC - The Organizing Committee, orchestrating memorable events. Follow OC on Instagram for updates on college festivities and gatherings! 🎉📆"
       ],
       "link": [ 
@@ -391,11 +307,6 @@
       "link": [ 
         "https://www.instagram.com/nss.kmit/"
     ]
-        "NSS - Non-Profit Organization at KMIT, serving society selflessly. \"Nonprofit organization not me but you.\" Stay informed with NSS on Instagram for community initiatives and social impact! 🤝🌍"
-      ],
-      "link": [ 
-        "https://www.instagram.com/nss.kmit/"
-    ]
     },
     {
       "tag": "rotaract_info",
@@ -406,11 +317,6 @@
         "what non-profit organization for greater good"
       ],
       "responses": [
-        "ROTARACT - Non-profit organization at KMIT, striving for the greater good. Connect with [Rotaract on Instagram] for impactful initiatives and community service! 🌐🤲"
-      ],
-      "link": [ 
-        "https://www.instagram.com/rotaract_kmit/"
-    ]
         "ROTARACT - Non-profit organization at KMIT, striving for the greater good. Connect with [Rotaract on Instagram] for impactful initiatives and community service! 🌐🤲"
       ],
       "link": [ 
@@ -427,11 +333,6 @@
         "what Street Cause"
       ],
       "responses": [
-        "STREET CAUSE - A division of the largest student-run NGO in Hyderabad. \"A life without a cause is a life without an effect.\" Connect with Street Cause on Instagram for community service and outreach activities! 🤝🌏"
-      ],
-      "link": [ 
-        "https://www.instagram.com/streetcause_kmit/"
-    ]
         "STREET CAUSE - A division of the largest student-run NGO in Hyderabad. \"A life without a cause is a life without an effect.\" Connect with Street Cause on Instagram for community service and outreach activities! 🤝🌏"
       ],
       "link": [ 
@@ -465,11 +366,6 @@
       "link": [ 
         "https://www.instagram.com/kmitraofficial/"
     ]
-        "KMITRA is the student body at KMIT, responsible for the college's e-magazine and promoting literary and creative works within the student community.Visit the instagram account for more updates of it's activities"
-      ],
-      "link": [ 
-        "https://www.instagram.com/kmitraofficial/"
-    ]
     },
     {
       "tag": "external_bodies_info",
@@ -493,9 +389,6 @@
         "tell me about clubs",
         "clubs in kmit"
         
-        "tell me about clubs",
-        "clubs in kmit"
-        
       ],
       "responses": [
         "Student clubs include Kaivalya (Yoga), Aalap (Music), Abhinaya (Drama), Aakarshan (Art), Curiosity, Mudra (Dance), Recurse (Coding), Vachan (Speaker's Club), Kreeda (Sports), Traces of Lenses (Photography), and Riti (Fashion). These clubs provide platforms for diverse interests and talents."
@@ -510,11 +403,6 @@
         "Learning management system at KMIT"
       ],
       "responses": [
-        "Tessellator: KMIT's customized Moodle system with code compilation for JAVA, C, and more languages."
-      ],
-      "link": [ 
-        "http://kmitonline.com/"
-    ]
         "Tessellator: KMIT's customized Moodle system with code compilation for JAVA, C, and more languages."
       ],
       "link": [ 
@@ -535,11 +423,6 @@
       "link": [ 
         "http://teleuniv.co.in/netra-web//"
     ]
-        "For attendance tracker."
-      ],
-      "link": [ 
-        "http://teleuniv.co.in/netra-web//"
-    ]
     },
     {
       "tag": "parent_app",
@@ -554,11 +437,6 @@
       "link": [ 
         "http://teleuniv.co.in/sanjaya-web/"
     ]
-        "To access the parent app, visit Sanjaya Parent App."
-      ],
-      "link": [ 
-        "http://teleuniv.co.in/sanjaya-web/"
-    ]
     },
     {
       "tag": "result_portal",
@@ -567,16 +445,8 @@
         "where to check results",
         "provide result website link",
         "Show the result's link"
-        "where to check results",
-        "provide result website link",
-        "Show the result's link"
       ],
       "responses": [
-        "To check results, visit Student Result Portal."
-      ],
-      "link": [ 
-        "hhttp://portal.teleuniv.in/"
-    ]
         "To check results, visit Student Result Portal."
       ],
       "link": [ 
@@ -597,11 +467,6 @@
       "link": [ 
         "http://projectschool.kmitonline.com/"
     ]
-        "For the project tracker"
-      ],
-      "link": [ 
-        "http://projectschool.kmitonline.com/"
-    ]
     },
     {
       "tag": "tesseract_links",
@@ -611,15 +476,8 @@
         "tesseract login",
         "Provide Tesseract web access",
         "How to access Tesseract online?"
-        "Provide Tesseract web access",
-        "How to access Tesseract online?"
       ],
       "responses": [
-        "For the tesseract."
-      ],
-      "link": [ 
-        "https://tesseractonline.com/"
-    ]
         "For the tesseract."
       ],
       "link": [ 
@@ -636,18 +494,8 @@
       "where are the sister college located",
       "where is ngit",
       "where is kmec"
-      "Names of affiliated colleges",
-      "Colleges affiliated with this",
-      "where are the sister college located",
-      "where is ngit",
-      "where is kmec"
     ],
     "responses": [
-      "NGIT, KMEC are the sister colleges of KMIT located in Uppal, Peerzadiguda respectively"
-    ],
-    "link": [ 
-      "https://ngit.ac.in/", "http://kmec.in/"
-  ]
       "NGIT, KMEC are the sister colleges of KMIT located in Uppal, Peerzadiguda respectively"
     ],
     "link": [ 
@@ -668,8 +516,6 @@
       ]
      
     
-     
-    
     },
     {
       "tag": "ngit_founded_years",
@@ -687,11 +533,6 @@
       "link": [ 
         "https://ngit.ac.in/"
     ]
-        "NGIT is a sister concern of KMIT started in 2017"
-      ],
-      "link": [ 
-        "https://ngit.ac.in/"
-    ]
     },
     {
       "tag": "kmec_founded_years",
@@ -703,11 +544,6 @@
         "when was keshav memorial engineering college founded"
       ],
       "responses": [
-        "Keshav Memorial Engineering College KMEC is the latest engineering institute to be launched by Keshav Memorial Technical Educational Society"
-      ],
-      "link": [ 
-        "http://kmec.in/"
-    ]
         "Keshav Memorial Engineering College KMEC is the latest engineering institute to be launched by Keshav Memorial Technical Educational Society"
       ],
       "link": [ 
