@@ -7,8 +7,7 @@
         "Hey",
         "How are you",
         "Is anyone there?",
-        "Hello",
-        "Good day"
+        "Hello"
       ],
       "responses": [
         "Hi there, what can I do for you?",
@@ -26,9 +25,9 @@
     },
     {
       "tag": "about_kmit",
-      "patterns": ["kmit", "what is kmit", "tell me about kmit"],
+      "patterns": ["kmit", "what is kmit", "tell me about kmit","about kmit","is kmit autonomous"],
       "responses": [
-        "KMIT (Keshav Memorial Institute of Technology) is located in Hyderabad, India. KMIT is an engineering college affiliated with Osmania University and offers undergraduate and postgraduate programs in various engineering disciplines."
+        "KMIT (Keshav Memorial Institute of Technology) is located in Hyderabad, India. KMIT is an autonomous engineering college affiliated with JNTU and offers undergraduate programs in various engineering disciplines."
       ]
     },
     {
@@ -39,15 +38,16 @@
     {
       "tag": "project_school_overview",
       "patterns": [
-        "Project school",
         "What is project school?",
         "What is the objective of Project School?",
         "Can you explain the ultimate goal of Project School?",
         "How does Project School enhance students' skills?",
-        "What are the milestones of Project School?",
         "Explain the eligibility criteria for Project School."
       ],
-      "responses": ["Project School aims to provide a well-rounded skill set with hands-on project experience. The goal is to integrate multiple technologies and enhance students' technical abilities. Eligibility is open to all students, selected based on a programming languages machine test. Students form teams of 5 members once selected for Project School."]
+      "responses": ["Project School aims to provide a well-rounded skill set with hands-on project experience. The goal is to integrate multiple technologies and enhance students' technical abilities. Eligibility is open to all students, selected based on a programming languages machine test. Students form teams of 5 members once selected for Project School."],
+      "link": [ 
+        "http://projectschool.kmitonline.com/"
+    ]
     },
     {
       "tag": "project_school_selection_process",
@@ -58,7 +58,7 @@
         "What is the process for selecting students for Project School?",
         "Explain the criteria for allotting seats in Project School."
       ],
-      "responses": "Students are selected based on performance in a machine test on programming languages. Seats are allotted based on test scores and availability."
+      "responses":["Students are selected based on performance in a machine test on programming languages. Seats are allotted based on test scores and availability."]
     },
     
     {
@@ -67,11 +67,9 @@
         "Tell me about the music club",
         "What's the aalap about?",
         "Do you have an Instagram handle for the aalap?",
-        "aalap",
         "What is aalap",
         "what music club",
-        "music club of kmit",
-        "music club"
+        "music club of kmit"
       ],
       "responses": [
         "KMIT's pioneering AALAP Music Club nurtures talent, promotes innovation, and embraces challenges, uniting music enthusiasts to explore, entertain, and connect.Explore AALAP - The Music Club of KMIT on instagram for exciting event updates and more! 🎶."
@@ -87,8 +85,7 @@
         "What's abhinaya about?",
         "Do you have an Instagram handle for abhinaya?",
         "abhinaya",
-        "what drama club",
-        "drama club"
+        "what drama club"
       ],
       "responses": [
         "ABHINAYA - The Drama Club of KMIT, fostering creativity through theatrical expressions. Stay updated on events and more at Abhinaya on Instagram. 🎭"
@@ -104,8 +101,7 @@
         "What's aakarshan about?",
         "Do you have an Instagram handle for aakarshan?",
         "aakarshan",
-        "what art club",
-        "art club"
+        "what art club"
       ],
       "responses": [
         "AAKARSHAN - The Art Club of KMIT, unleashing creativity and artistic expression. Follow Aakarshan on Instagram for updates on art events and projects. 🎨"
@@ -121,9 +117,7 @@
         "What's mudra about?",
         "Do you have an Instagram handle for mudra?",
         "mudra",
-        "what dance club",
-        "dance club of kmit",
-        "dance club"
+        "dance club of kmit"
       ],
       "responses": [
         "MUDRA - The Dance Club of KMIT, where rhythm meets expression. Connect with Mudra on Instagram for dance event updates and more! 💃🕺"
@@ -139,8 +133,7 @@
         "What's vachan about?",
         "Do you have an Instagram handle for vachan?",
         "vachan",
-        "what speaker's club",
-        "public speaking club"
+        "what speaker's club"
       ],
       "responses": [
         "VACHAN - The Speaker's Club of KMIT, empowering voices and fostering eloquence. Follow Vachan on Instagram for updates on speaking events and discussions. 🗣️"
@@ -157,8 +150,7 @@
         "What's recurse about?",
         "Do you have an Instagram handle for recurse?",
         "recurse",
-        "what coding club",
-        "coding club"
+        "what coding club"
       ],
       "responses": [
         "RECURSE - The Coding Club of KMIT, where innovation meets code. Follow Recurse on Instagram for coding challenges and tech updates. 💻🚀"
@@ -175,7 +167,6 @@
         "What's kaivalya about?",
         "Do you have an Instagram handle for kaivalya?",
         "kaivalya",
-        "what yoga club",
         "yoga club of kmit"
       ],
       "responses": [
@@ -208,7 +199,6 @@
         "What's kreeda about?",
         "Do you have an Instagram handle for kreeda?",
         "kreeda",
-        "what sports club",
         "sports club of kmit"
       ],
       "responses": [
@@ -257,15 +247,14 @@
         "Tell me about the e-magazine",
         "What's k-mitra about?",
         "Do you have an Instagram handle for k-mitra?",
-        "what e-magazine",
-        "writing club",
-        "e-magazine club"
+        "Tell me about the student body",
+        "what e-magazine"
       ],
       "responses": [
-        "KMITRA - The E-Magazine, showcasing creativity and insights. Stay connected with KMITRA on Instagram for literary updates and more! 📖✨"
+        "KMITRA - The E-Magazine, showcasing creativity and insights 📖✨. To read the e-magazine"
       ],
       "link": [ 
-        "https://www.instagram.com/kmitraofficial/"
+        "https://kmit.in/emagazine/"
     ]
     },
     {
@@ -308,9 +297,7 @@
         "What's nss about?",
         "Do you have an Instagram handle for nss?",
         "nss",
-        "what non-profit organization",
-        "is nss a non-profit organization",
-        "what is nss"
+        "some information on what NSS is about","What are the goals of the nss"
       ],
       "responses": [
         "NSS - Non-Profit Organization at KMIT, serving society selflessly. \"Nonprofit organization not me but you.\" Stay informed with NSS on Instagram for community initiatives and social impact! 🤝🌍"
@@ -325,8 +312,8 @@
         "What's rotaract about?",
         "Do you have an Instagram handle for rotaract?",
         "rotaract",
-        "what non-profit organization for greater good",
-        "what is rotaract"
+        "information about rotaract",
+        "updates on the rotaract club"
       ],
       "responses": [
         "ROTARACT - Non-profit organization at KMIT, striving for the greater good. Connect with [Rotaract on Instagram] for impactful initiatives and community service! 🌐🤲"
@@ -341,7 +328,7 @@
         "Tell me about Street Cause",
         "What's street cause about?",
         "Do you have an Instagram handle for Street Cause?",
-        "Street Cause",
+        "updates on Street Cause",
         "what Street Cause"
       ],
       "responses": [
@@ -356,36 +343,21 @@
       "patterns": [
         "Tell me about the student committee",
         "What's OC and PR?",
-        "Student committee",
+        "Student committee"," details about the student committee",
         "OC PR"
       ],
       "responses": [
         "The Student Committee includes OC (Organizing Committee) and PR (Public Relations), playing key roles in organizing events and enhancing college communication."
       ]
     },
-    {
-      "tag": "student_body_info",
-      "patterns": [
-        "Tell me about the student body",
-        "What's KMITRA?",
-        "is KMITRA a club",
-        "Student body",
-        "KMITRA"
-      ],
-      "responses": [
-        "KMITRA is the student body at KMIT, responsible for the college's e-magazine and promoting literary and creative works within the student community.Visit the instagram account for more updates of it's activities"
-      ],
-      "link": [ 
-        "https://www.instagram.com/kmitraofficial/"
-    ]
-    },
+    
     {
       "tag": "external_bodies_info",
       "patterns": [
         "Tell me about external bodies",
         "What's NSS, Rotaract, Street Cause?",
         "External bodies",
-        
+        "charity organizations in kmit",
         "NSS Rotaract Street Cause"
       ],
       "responses": [
@@ -465,21 +437,7 @@
         "hhttp://portal.teleuniv.in/"
     ]
     },
-    {
-      "tag": "school_related_links",
-      "patterns": [
-        "Provide project school-related links",
-        "project school websites",
-        "School project links",
-        "the project tracker link"
-      ],
-      "responses": [
-        "For the project tracker"
-      ],
-      "link": [ 
-        "http://projectschool.kmitonline.com/"
-    ]
-    },
+    
     {
       "tag": "tesseract_links",
       "patterns": [
@@ -503,16 +461,12 @@
       "What are the sister colleges?",
       "Names of affiliated colleges",
       "Colleges affiliated with this",
-      "where are the sister college located",
-      "where is ngit",
-      "where is kmec"
+      "where are the sister college located"
     ],
     "responses": [
-      "NGIT, KMEC are the sister colleges of KMIT located in Uppal, Peerzadiguda respectively"
-    ],
-    "link": [ 
-      "https://ngit.ac.in/", "http://kmec.in/"
-  ]
+      "NGIT, KMEC,KMCE are the sister colleges of KMIT located in Uppal, Peerzadiguda, and Chintpalliguda respectively"
+    ]
+    
     },
     {
       "tag": "founded_years",
@@ -540,7 +494,7 @@
         "when was neil gogte institue of technology founded"
       ],
       "responses": [
-        "NGIT is a sister concern of KMIT started in 2017"
+        "NGIT is a sister concern of KMIT  affiliated to Osmania University (O.U), started in 2017"
       ],
       "link": [ 
         "https://ngit.ac.in/"
@@ -556,10 +510,26 @@
         "when was keshav memorial engineering college founded"
       ],
       "responses": [
-        "Keshav Memorial Engineering College KMEC is the latest engineering institute to be launched by Keshav Memorial Technical Educational Society"
+        "Keshav Memorial Engineering College KMEC is a sister concern of KMIT  affiliated to Osmania University (O.U), started in 2021"
       ],
       "link": [ 
         "http://kmec.in/"
+    ]
+    },
+    {
+      "tag": "kmce_founded_years",
+      "patterns": [
+        "KMCE",
+        "what kmce",
+        "about kmce",
+        "when was KMCE founded",
+        "when was keshav memorial college of engineering founded"
+      ],
+      "responses": [
+        "Keshav Memorial College of Engineering  is a sister concern of KMIT affiliated to JNTU, started in 2023"
+      ],
+      "link": [ 
+        "http://kmce.in/"
     ]
     },
     {
@@ -635,28 +605,15 @@
     {
       "tag": "college_selling_points",
       "patterns": [
-        "What are the selling points of this college?",
-        "Tell me about the highlights of this college.",
-        "What are the key selling features of this college?",
         "Why is this college special?",
         "Can you list the strengths of this college?",
         "why kmit",
-        "why should i join this clg",
         "why should i join this college",
         "what is special about kmit",
         "what is different about kmit",
-        "what is different about this college",
-        "what is different about this clg",
-        "how is kmit different",
-        "Why should I join this college?",
-        "What makes this college unique?",
-        "Tell me about the uniqueness of this college.",
-        "What sets this college apart?",
         "What are the special initiatives of this college?",
         "What programs does kmit offer?",
-        "academic programs",
-        "special academic programs",
-        "why is kmit a good college"
+        "special academic programs"
       ],
       "responses": ["Our college stands out with special initiatives like Project School and Finishing School. Project School aims for well-rounded skills and hands-on experience, while Finishing School offers diverse tracks including coding, aptitude, and soft skills."]
     },
@@ -667,8 +624,6 @@
         "Where can I stay if I join this college?",
         "Are there any residential facilities on campus?",
         "Can I get a room in the hostel?",
-        "Is there a hostel on campus?",
-        "Is there a dormitory in the college?",
         "Are there any PGs or hostels near the college?"
       ],
       "responses": [
@@ -683,8 +638,6 @@
         "Is there a college bus?",
         "Does the college provide transport?",
         "What are the transportation options for the college?",
-        "Does the college have a shuttle service?",
-        "Can I take a bus to the college?",
         "Do I need to arrange my own transport to the college?"
       ],
       "responses": [
@@ -699,8 +652,6 @@
         "What companies come for placements?",
         "What is the highest package offered?",
         "What percentage of students get placed every year?",
-        "Tell me about the college placements.",
-        "What is the average salary package ?",
         "Are there any internships offered during placements?"
       ],
       "responses": [
@@ -723,13 +674,10 @@
               "Where can I park my vehicle?",
               "Is there a designated parking area?",
               "Where is the parking zone?",
-              "Can you help me find a place to park?",
-              "Where is the car park located?",
-              "Where should I park my bike?",
               "Where is the parking spot?"
       ],
       "responses": [
-        "The parking is located near the main entrance. It has spots for both cars and bikes."
+        "The parking is located near the B-block. It has spots for both cars and bikes."
       ]
     }
     ,
@@ -740,15 +688,11 @@
               "Can I park my vehicle on campus?",
               "Is there a parking lot in the college?",
               "Can I park my bike on campus?",
-              "Is there parking for scooters?",
-              "Can I park my car in the college parking lot?",
-              "Is there parking for motorcycles?",
-              "Is there parking for bikes?",
               "Bike parking",
               "Car parking"
           ],
           "responses": [
-              "Yes, parking is available on campus. We have provisions for both 2 wheeler and 3 wheeler parking."
+              "Yes, parking is available on campus. We have provisions for both 2 wheeler and 4 wheeler parking."
           ]
       },
       {
@@ -774,9 +718,7 @@
           "I need to know the courses offered in the college.",
           "What are the courses offered in the college?",
           "What are the major courses in the college?",
-          "I want to know about the college courses.",
-          "Tell me about the courses in the college.",
-          "What kind of courses are offered in the college?"
+          "college courses"
         ],
         "responses": [
           "Our college offers a variety of courses. They include Computer Science Engineering (CSE), Computer Science and Engineering with specialization in AI and ML (CSM), Computer Science and Engineering with specialization in Data Science (CSD), and Information Technology (IT). For detailed information about these courses, please visit our official website."]
@@ -788,10 +730,7 @@
           "Can you tell me the accreditations of the college?",
           "I need to know the college's accreditations.",
           "What are the college's accreditations?",
-          "What are the major accreditations of the college?",
-          "Can you list the college's accreditations?",
-          "I want to know about the college's accreditations.",
-          "Tell me about the accreditations of the college."
+          "What are the major accreditations of the college?"
         ],
         "responses": [
           "Our college is autonomous and is accredited by several prestigious organizations. These include the National Board of Accreditation (NBA), the National Assessment and Accreditation Council (NAAC), the National Institutional Ranking Framework (NIRF), the Atal Ranking of Institutions on Innovation Achievements (ARIIA), and the National Innovation Council (NIC). For detailed information about these accreditations, please visit our official website."]
@@ -802,10 +741,7 @@
           "When does the Finishing School start?",
           "Can you tell me when the Finishing School starts and its duration?",
           "What is the duration of the Finishing School?",
-          "When does the Finishing School program begin and end?",
           "Can you list the start and end dates of the Finishing School?",
-          "I want to know about the Finishing School's schedule.",
-          "Tell me about the Finishing School's duration.",
           "What is the schedule for the Finishing School?"
         ],
         "responses": [
@@ -818,9 +754,6 @@
           "What tracks are offered in the Finishing School?",
           "Can you tell me the tracks offered in the Finishing School?",
           "What are the tracks in the Finishing School?",
-          "Can you list the tracks in the Finishing School?",
-          "I want to know about the tracks in the Finishing School.",
-          "Tell me about the tracks in the Finishing School.",
           "What kind of tracks are offered in the Finishing School?"
         ],
         "responses": [
@@ -832,8 +765,6 @@
           "What is the Foundation School?",
           "Can you tell me about the FDS?",
           "I need to know about the Foundation School.",
-          "Could you provide some information about the Foundation School?",
-          "What's the purpose of the Foundation School?",
           "What does the FDS do?",
           "Tell me something about the Foundation School."
         ],
@@ -846,8 +777,6 @@
           "When are the Foundation School sessions?",
           "How often are the Foundation School sessions?",
           "What is the schedule for the Foundation School sessions?",
-          "What's the timing of the Foundation School sessions?",
-          "When do the Foundation School sessions take place?",
           "Can you tell me the timing of the Foundation School sessions?",
           "What's the frequency of the Foundation School sessions?"
         ],
@@ -861,8 +790,6 @@
           "What kind of problems are given in the Foundation School sessions?",
           "What is the curriculum of the Foundation School?",
           "What do the Foundation School sessions involve?",
-          "What activities are conducted in the Foundation School sessions?",
-          "What kind of tasks are assigned in the Foundation School sessions?",
           "What's the learning process in the Foundation School sessions?"
         ],
         "responses": [
