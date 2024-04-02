@@ -27,7 +27,7 @@ encoded_data = tokenizer(sentences, truncation=True, padding=True, return_tensor
 
 # Convert labels to numerical values
 label_mapping = {label: i for i, label in enumerate(set(labels))}
-print("label_mapping", label_mapping)
+# print("label_mapping", label_mapping)
 numerical_labels = [label_mapping[label] for label in labels]
 
 # Create a custom dataset
@@ -64,15 +64,15 @@ class IntentClassifier(nn.Module):
 # Instantiate the model
 input_size = model.config.hidden_size
 output_size = len(set(labels))
-print("output_size", output_size)
+# print("output_size", output_size)
 classifier = IntentClassifier(input_size, output_size)
 
 # Loss and optimizer
 criterion = nn.CrossEntropyLoss()
-optimizer = torch.optim.Adam(classifier.parameters(), lr=0.0003)
+optimizer = torch.optim.Adam(classifier.parameters(), lr=0.00022)
 
 # Train the model (customize this part based on your specific requirements)
-num_epochs = 6
+num_epochs = 5
 for epoch in range(num_epochs):
     for batch in train_loader:
         input_ids = batch['input_ids']

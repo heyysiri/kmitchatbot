@@ -4,13 +4,14 @@ import torch
 from transformers import DistilBertTokenizer, DistilBertModel
 from train import label_mapping, output_size
 
+
 app = Flask(__name__)
 CORS(app)
 
 # Load DistilBERT model and tokenizer
 tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
 model = DistilBertModel.from_pretrained('distilbert-base-uncased')
-
+print("after bert import")
 # Load your trained classifier
 class IntentClassifier(torch.nn.Module):
     def __init__(self, input_size, output_size):
@@ -28,6 +29,7 @@ class IntentClassifier(torch.nn.Module):
 input_size = model.config.hidden_size
   # Replace with the actual number of output classes
 classifier = IntentClassifier(input_size, output_size)
+print("after intent classifier")
 classifier.load_state_dict(torch.load('distilbert_intent_classifier.pth'))
 classifier.eval()
 
@@ -57,4 +59,5 @@ def predict():
         return jsonify({'error': str(e)})
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    app.run(port=5000, debug=True, use_reloader=False)
+    print("after app run 1")

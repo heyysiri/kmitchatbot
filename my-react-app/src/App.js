@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';  // Import Axios
 import './App.css';
 import intents from './intents.json';
+// https://uniquekmitchatbot8.onrender.com/predict
 const App = () => {
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState('');
@@ -16,7 +17,7 @@ const App = () => {
   
     try {
       // Make a POST request to the Flask server using Axios
-      const response = await axios.post('https://uniquekmitchatbot8.onrender.com/predict', {
+      const response = await axios.post('http://localhost:5000/predict', {
         message: newMessage
       });
       console.log(response.data);

@@ -34,7 +34,7 @@
     {
       "tag": "thanks",
       "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "responses": ["Happy to help!", "Any time!", "My pleasure!"]
     },
     {
       "tag": "project_school_overview",
@@ -58,7 +58,7 @@
         "What is the process for selecting students for Project School?",
         "Explain the criteria for allotting seats in Project School."
       ],
-      "responses": "Students are selected based on performance in a machine test on programming languages. Seats are allotted based on test scores and availability."
+      "responses": ["Students are selected based on performance in a machine test on programming languages. Seats are allotted based on test scores and availability."]
     },
     
     {
@@ -281,7 +281,7 @@
         "PR - The Public Relations Club, bridging connections and communication. Connect with [PR on Instagram](https://www.instagram.com/pr.kmit/) for updates on college events and more! 🤝📢"
       ],
       "link": [ 
-        "https://www.instagram.com/aalapofficial/"
+        "https://www.instagram.com/pr.kmit/"
     ]
     },
     {
@@ -291,7 +291,9 @@
         "What's oc about?",
         "Do you have an Instagram handle for oc?",
         "oc",
-        "what organizing committee"
+        "what organizing committee",
+        "what does the oc do?",
+        "what does the organizing committee do?"
       ],
       "responses": [
         "OC - The Organizing Committee, orchestrating memorable events. Follow OC on Instagram for updates on college festivities and gatherings! 🎉📆"
@@ -325,7 +327,6 @@
         "What's rotaract about?",
         "Do you have an Instagram handle for rotaract?",
         "rotaract",
-        "what non-profit organization for greater good",
         "what is rotaract"
       ],
       "responses": [
@@ -342,7 +343,8 @@
         "What's street cause about?",
         "Do you have an Instagram handle for Street Cause?",
         "Street Cause",
-        "what Street Cause"
+        "what Street Cause",
+        "is street cause student run?"
       ],
       "responses": [
         "STREET CAUSE - A division of the largest student-run NGO in Hyderabad. \"A life without a cause is a life without an effect.\" Connect with Street Cause on Instagram for community service and outreach activities! 🤝🌏"
@@ -360,8 +362,13 @@
         "OC PR"
       ],
       "responses": [
-        "The Student Committee includes OC (Organizing Committee) and PR (Public Relations), playing key roles in organizing events and enhancing college communication."
-      ]
+        "The Student Committee includes OC (Organizing Committee) and PR (Public Relations), playing key roles in organizing events and enhancing college communication. Here are the links for their IG handles: "
+      ],
+      "link": [ 
+        "https://www.instagram.com/oc.kmit/",
+        "https://www.instagram.com/pr.kmit/"
+
+    ]
     },
     {
       "tag": "student_body_info",
@@ -385,7 +392,6 @@
         "Tell me about external bodies",
         "What's NSS, Rotaract, Street Cause?",
         "External bodies",
-        
         "NSS Rotaract Street Cause"
       ],
       "responses": [
@@ -606,8 +612,9 @@
         "Check HODs at Keshav Memorial Institute of Technology"
       ],
       "responses": [
-        "For information about the HODs at KMIT, visit [HODs at KMIT](https://www.kmit.in/administration/hod.php)."
-      ]
+        "For information about the HODs at KMIT, visit "
+      ],
+      "link": ["https://www.kmit.in/administration/hod.php"]
     },
     {
       "tag": "college_advantages",
@@ -701,7 +708,10 @@
         "What percentage of students get placed every year?",
         "Tell me about the college placements.",
         "What is the average salary package ?",
-        "Are there any internships offered during placements?"
+        "Are there any internships offered during placements?",
+        "How many companies visited last year?",
+        "lowest package of kmit",
+        "how many students were placed last year"
       ],
       "responses": [
         "Our college has a dedicated placement cell-Bhavishya Dwar that invites various reputed companies for campus placements. For specific details about the companies, packages, and percentage of students placed, please follow the link: "
@@ -710,10 +720,6 @@
         "https://kmit.in/placements/placement.php"
     ]
     },
-    
-    
-    
-      
     {
       "tag": "parking_location",
       "patterns": [
@@ -733,7 +739,7 @@
       ]
     }
     ,
-      {
+    {
           "tag": "parking_availability",
           "patterns": [
               "Is parking available on campus?",
@@ -776,7 +782,8 @@
           "What are the major courses in the college?",
           "I want to know about the college courses.",
           "Tell me about the courses in the college.",
-          "What kind of courses are offered in the college?"
+          "What kind of courses are offered in the college?",
+          "college courses"
         ],
         "responses": [
           "Our college offers a variety of courses. They include Computer Science Engineering (CSE), Computer Science and Engineering with specialization in AI and ML (CSM), Computer Science and Engineering with specialization in Data Science (CSD), and Information Technology (IT). For detailed information about these courses, please visit our official website."]
@@ -867,6 +874,17 @@
         ],
         "responses": [
           "During these sessions, students are given challenging coding problems and are encouraged to solve them. Faculty mentors too are available in the class for those students who need help."]
+      },
+      {
+        "tag": "events_of_kmit",
+        "patterns": [
+          "events of kmit",
+          "what fun programs happen in kmit",
+          "what fun events will there be in kmit"
+        ],
+        "responses": [
+          "In KMIT, we have 3 major events throughout the year: Patangotsav, Dandiya Night, KMIT Evening"
+        ]
       }
   ]
 }
