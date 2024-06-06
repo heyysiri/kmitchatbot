@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 from transformers import DistilBertTokenizer, DistilBertModel
-
+from peft import LoraConfig, get_peft_model
 
 # Load intents from the JSON file
 with open('my-react-app/src/intents.json', 'r', encoding='utf-8') as f:
@@ -27,8 +27,10 @@ encoded_data = tokenizer(sentences, truncation=True, padding=True, return_tensor
 
 # Convert labels to numerical values
 label_mapping = {label: i for i, label in enumerate(set(labels))}
-# print("label_mapping", label_mapping)
 numerical_labels = [label_mapping[label] for label in labels]
+
+with open('label_mapping.json', 'w') as f:
+    json.dump(label_mapping, f)
 
 # Create a custom dataset
 class ChatDataset(Dataset):
@@ -64,14 +66,23 @@ class IntentClassifier(nn.Module):
 # Instantiate the model
 input_size = model.config.hidden_size
 output_size = len(set(labels))
-# print("output_size", output_size)
 classifier = IntentClassifier(input_size, output_size)
+
+# Apply LoRA to the model
+lora_config = LoraConfig(
+    r=16, 
+    lora_alpha=32, 
+    target_modules=['q_lin', 'v_lin'],  # Correct target modules for DistilBERT
+    lora_dropout=0.1, 
+    bias='lora_only'
+)
+classifier = get_peft_model(classifier, lora_config)
 
 # Loss and optimizer
 criterion = nn.CrossEntropyLoss()
-optimizer = torch.optim.Adam(classifier.parameters(), lr=0.00022)
+optimizer = torch.optim.Adam(classifier.parameters(), lr=0.0009)
 
-# Train the model (customize this part based on your specific requirements)
+# Train the model
 num_epochs = 5
 for epoch in range(num_epochs):
     for batch in train_loader:
@@ -88,5 +99,5 @@ for epoch in range(num_epochs):
     print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}')
 
 # Save the model
-torch.save(classifier.state_dict(), 'distilbert_intent_classifier.pth')
+torch.save(classifier.state_dict(), 'distilbert_intent_classifier_lora.pth')
 print('Training complete. Model saved.')

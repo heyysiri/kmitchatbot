@@ -11,6 +11,10 @@ chat.py
 model.py
 nltk_utils.py
 distilbert_intent_classifier.pth
+questionGen.py
+similarityQuestions.py
+distilbert_intent_classifier_lora.pth
+data1.pth
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
