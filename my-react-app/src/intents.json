@@ -768,10 +768,11 @@
           "Can you tell me when the Finishing School starts and its duration?",
           "What is the duration of the Finishing School?",
           "Can you list the start and end dates of the Finishing School?",
-          "What is the schedule for the Finishing School?"
+          "What is the schedule for the Finishing School?",
+          "Is Finishing school free?"
         ],
         "responses": [
-          "The Finishing School program consists of two semesters. The first semester of the Finishing School runs concurrently with the third year second semester of B.Tech while the second semester runs concurrently with the fourth year, first semester. A student has the choice to opt for various tracks offered."]
+          "The Finishing School program consists of two semesters. The first semester of the Finishing School runs concurrently with the third year second semester of B.Tech while the second semester runs concurrently with the fourth year, first semester. A student has the choice to opt for various tracks offered. Finishing school is a part of the curriculum here at KMIT and it is completely free of cost."]
       },
       {
         "tag": "finishing_school_tracks",
@@ -800,6 +801,7 @@
       {
         "tag": "foundation_school_schedule",
         "patterns": [
+          "What is Foundation school",
           "When are the Foundation School sessions?",
           "How often are the Foundation School sessions?",
           "What is the schedule for the Foundation School sessions?",

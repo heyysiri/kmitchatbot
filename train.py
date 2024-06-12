@@ -72,7 +72,7 @@ classifier = IntentClassifier(input_size, output_size)
 lora_config = LoraConfig(
     r=16, 
     lora_alpha=32, 
-    target_modules=['q_lin', 'v_lin'],  # Correct target modules for DistilBERT
+    target_modules=['q_lin', 'v_lin'], 
     lora_dropout=0.1, 
     bias='lora_only'
 )
@@ -80,10 +80,10 @@ classifier = get_peft_model(classifier, lora_config)
 
 # Loss and optimizer
 criterion = nn.CrossEntropyLoss()
-optimizer = torch.optim.Adam(classifier.parameters(), lr=0.0009)
+optimizer = torch.optim.Adam(classifier.parameters(), lr=0.00111)
 
 # Train the model
-num_epochs = 5
+num_epochs = 6
 for epoch in range(num_epochs):
     for batch in train_loader:
         input_ids = batch['input_ids']
